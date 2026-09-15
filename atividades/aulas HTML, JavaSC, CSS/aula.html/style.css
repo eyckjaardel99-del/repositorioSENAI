@@ -1,0 +1,61 @@
+/* configuração gerais da pagina*/
+
+/* O *(asterisco) seleciona todos os elementos da pagina*/
+/* */
+ * {
+    box-sizing: border-box;
+ }
+
+body {
+    /* define apenas uma linha*/
+    font-family: Arial, sans-serif arial, sans-serif;
+    /*remove a margem padrão do navegador*/
+    margin: 0;
+    background-color:#5c3b3b;
+
+    color: aliceblue;
+}
+
+header{
+    background-color: rgb(126, 96, 96);
+    color: rgb(148, 130, 130);
+    /* espaçameto interno*/
+    padding: 10px;
+    /*centralizar o texto*/
+    text-align: center;
+}
+
+header h1{
+    /*remove a margem do texto8*/
+    margin-top: 0;
+}
+
+nav {
+    background-color: #980909;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    background-color: #c98c8c;
+    text-align: center; 
+    padding: 15px;
+    text-decoration: none;
+
+}
+
+nav a hover{
+    max-width: 1000px;
+    margin: 30px;
+    padding: 0 30px;
+}
+
+section{
+    background-color: #5c3b3b;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30;
+}
+
+
+

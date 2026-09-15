@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="pedido">
+            <h1>SITEMA PEDIDO DE LANCHONETE</h1>
+
+            <LAbel for="nome">nome</LAbel>
+            <input type="text" id="nome" placeholder="coloque seu nome">
+            <br>
+
+            <label for="lanche">lanche</label>
+            <select id="lanche" >
+                <option value="15.00">hambuerguer</option>
+                <option value="18.00">x-salada</option>
+                <option value="22">x-bacon</option>
+            </select>
+            <br>
+            <label for="quantidade">quantidade</label>
+            <input type="number" id="quantidade" min="1" max="">
+            <br>
+
+            <label for="bebida">bebida</label>
+            <select id="bebida">
+                <option value="0">nenhuma</option>
+                <option value="6.00">refrigerente</option>
+                <option value="7.00">suco</option>
+            </select>
+            <h2 id="mostrar"></h2>
+
+            <hr>
+            <button id="butao">finalizar pedido</button>
+
+        </section>
+
+
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

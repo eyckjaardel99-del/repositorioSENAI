@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>lista de compras</h1>
+
+        <section class="formulario">
+
+            <div>
+                <label for="produto">produto</label>
+                <input type="text" id="produto" placeholder="Ex:arroz">
+            </div>
+
+            <div>
+                <label for="preco">preços</label>
+                <input type="number" id="preco" placeholder="ex: 25.90">
+            </div>
+
+            <div>
+                <label for="quantidade">quantidade</label>
+                <input type="number" id="quantidade" value="1" min="1">
+            </div>
+
+            <button id="btnAdicionar">adicionar produto</button>  
+
+        </section>
+
+        <section class="lista">
+            <H2>produtos</H2>
+
+            <ul id="listaProdutos">
+            </ul>
+        </section>
+
+        <section class="total">
+            <H2>>total da compra</H2>
+
+            <p id="total">R$ 0,00</p>
+        </section>
+
+    </main>
+     <script src="script.js"></script>
+</body>
+</html>
