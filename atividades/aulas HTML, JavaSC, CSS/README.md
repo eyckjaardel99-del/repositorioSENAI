@@ -1,1 +1,1 @@
-# atividade 1 HTML
+# PASTAS JS, HTML, CSS
