@@ -1,0 +1,16 @@
+{
+  "name": "projeto2",
+  "version": "1.0.0",
+  "main": "server/servidor.js",
+  "scripts": {
+    "dev":"node server/servidor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
