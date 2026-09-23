@@ -9,7 +9,7 @@ const professor = require("./routes/professor");
 const app = express();
 
 //define a porta que o servidor vai utilizar
-const porta = 3000;
+const porta = 4000;
 
 app.use("/alunos", alunoRota);
 app.use("/professores", professor);
