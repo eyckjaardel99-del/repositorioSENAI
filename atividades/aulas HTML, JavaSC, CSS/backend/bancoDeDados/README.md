@@ -91,4 +91,7 @@ Delete servidor: http://localhost:3000/:id
     }
 ```
 ## teste thunder client vscode
-![teste01](./bancoDeDados/Captura de tela 2026-09-29 095226.png")
+! [teste01](./2026-09-29-095047.png)
+! [teste02](./2026-09-29-095226.png)
+! [teste03](./2026-09-29-095323.png)
+! [teste04](./2026-09-290-095256.png)
