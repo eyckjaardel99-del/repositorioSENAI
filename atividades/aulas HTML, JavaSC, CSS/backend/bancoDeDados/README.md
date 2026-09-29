@@ -89,9 +89,6 @@ Delete servidor: http://localhost:3000/:id
 
         
     }
-
 ```
-
-### id, unidade, kg, precoUnitario, quantidade.
-## exemplos de resposta:
-### ex: delete id 1: apaga o id 1.
+## teste thunder client vscode
+![teste01](.\bancoDeDados\Captura de tela 2026-09-29 095226.png")
