@@ -104,6 +104,7 @@ body {
     }
 }
 
+
 /* Quando o ventilador está ligado */
 .ventilador.ligado {
     box-shadow: 0 0 30px #00aaff;
@@ -111,7 +112,13 @@ body {
 
 
 .ventilador.ligado .helices {
-    animation: girar 1s linear infinite;
+    animation: girar 4s linear infinite;
+}
+.ventilador.ligado2 .helices {
+    animation: girar 2s linear infinite;
+}
+.ventilador.ligado3 .helices {
+    animation: girar 0.5s linear infinite;
 }
 
 /* Botões */
