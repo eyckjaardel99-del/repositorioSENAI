@@ -17,14 +17,8 @@ botao.addEventListener("click", function(){
         botao.textContent = "ligar"
     }
 
-    
-    
-
-          
-})
-        botaoNormal.addEventListener("click", function(){
+            botaoNormal.addEventListener("click", function(){
             ventilador.classList.toggle("ligado");
-
               
         })
         
@@ -39,3 +33,7 @@ botao.addEventListener("click", function(){
             ventilador.classList.toggle("girar");
                 
         })
+    
+
+          
+})
