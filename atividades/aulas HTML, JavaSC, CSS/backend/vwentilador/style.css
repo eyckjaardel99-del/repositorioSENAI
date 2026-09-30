@@ -112,13 +112,16 @@ body {
 
 
 .ventilador.ligado .helices {
+    animation: girar 6s linear infinite;
+}
+.ventilador.ligado1 .helices {
     animation: girar 4s linear infinite;
 }
 .ventilador.ligado2 .helices {
     animation: girar 2s linear infinite;
 }
 .ventilador.ligado3 .helices {
-    animation: girar 0.5s linear infinite;
+    animation: girar 1s linear infinite;
 }
 
 /* Botões */

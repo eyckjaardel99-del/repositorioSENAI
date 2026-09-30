@@ -6,7 +6,8 @@ const botaoNormal = document.getElementById("botaoNormal");
 
 
 botao.addEventListener("click", function(){
-    
+    let num = 1;
+    if(num ==1){
         ventilador.classList.toggle("ligado");
         ventilador.classList.toggle("girar")
 
@@ -16,9 +17,11 @@ botao.addEventListener("click", function(){
     else{
         botao.textContent = "ligar"
     }
+        
 
             botaoNormal.addEventListener("click", function(){
-            ventilador.classList.toggle("ligado");
+            ventilador.classList.toggle("ligado1");
+
               
         })
         
@@ -34,6 +37,7 @@ botao.addEventListener("click", function(){
                 
         })
     
+    }
 
           
 })
