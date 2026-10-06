@@ -1,23 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jogoDaVelha</title>
-    <link rel="stylesheet" href="style.css"
-</head>
-<body>
-    <center>
-        <h1>jogo da velha</h1>
-        <br><br>
-        <div class="http://localhost:3000"></div>
-        <input type="text" placeholder="nome do jogador 1" id="JG1">
-        <input type="text" placeholder="nome do jogador 2" id="JG2">
-        <br><br>
-        <button onclick="botao()">BOTAO</button>
-       
+<html>
 
-    </center>
-    <SCript src="script.js"></SCript>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>velha</title>
+  <link rel="stylesheet" href="../MeusProjetos/jogoDaVelha/html/style.css"  />
+</head>
+
+<body>
+<div class="container">
+  <h1>jogo da velha</h1>
+  <hr>
+  <button id="botao1">aperte</button>
+  
+  
+    <div class="velhaA" id="velha">
+      <hr>
+      <br>
+      <button class="jogo" id="1" value="">velha</button>
+      <button class="jogo" id="2" value="">velha</button>
+      <button class="jogo" id="3" value="">velha</button>
+      <br><br>
+      
+      <button class="jogo" id="4" value="">velha</button>
+      <button class="jogo" id="5" value="">velha</button>
+      <button class="jogo" id="6" value="">velha</button>
+      <br><br>
+      
+      <button class="jogo" id="7" value="">velha</button>
+      <button class="jogo" id="8" value="">velha</button>
+      <button class="jogo" id="9" value="">velha</button>
+      <br><br>
+      
+    </div>
+    <hr>
+  <div class="vitoria">
+    <h1 id="vencedor">vencedor</h1>
+  </div>
+
+</div>
 </body>
+<script src="../script.js"></script>
 </html>

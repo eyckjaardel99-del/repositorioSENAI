@@ -1,0 +1,11 @@
+*{
+  border-radius: border-box;
+}
+
+body{
+  background-color: rgb(9,66,4) ;
+}
+
+.velhaA{
+  display: none;
+}
