@@ -25,13 +25,13 @@ botao.addEventListener('click',function (){
             if(jogador === true){
               checagem.target.value = 1,  
   
-              console.log("posicao e; ",posicao)
-              console.log("valor e; ",checagem.target.value)
+             // console.log("posicao e; ",posicao)
+             // console.log("valor e; ",checagem.target.value)
           
               checagem.target.disabled = true;
           
               jogador = false;
-              console.log("o jogador e ",jogador)
+             // console.log("o jogador e ",jogador)
               
               
               
@@ -39,25 +39,40 @@ botao.addEventListener('click',function (){
             else if(jogador === false){        
               checagem.target.value = 2,
             
-                console.log("posicao e; ", posicao)
-                console.log("valor e; ", checagem.target.value)
+               // console.log("posicao e; ", posicao)
+               // console.log("valor e; ", checagem.target.value)
           
               checagem.target.disabled = true;
           
             jogador = true;
-            console.log("o jogador e ;",jogador)
+           // console.log("o jogador e ;",jogador)
             
             
             }
           
         fimJogo = fimJogo + 1;
-        console.log(fimJogo)
-        console.log("os ids sao: ", ids)
+        //console.log(fimJogo)
+       console.log("os ids sao: ", ids)          
+
         
-        
-        if(fimJogo === 9){
+
+          let soma = ids.reduce((total, permitidos) => total + (Number(permitidos.value) || 0), 0);
+
+          console.log(soma)  
+
+          if((ids[1]+ ids[3] + ids[5]) === 6 || (ids[1]+ ids[3] + ids[5]) === 3){
+            console.log("vencedor", jogador)
+
+          }
+
+          else if((ids[3] + ids[4] + ids[5]) === 6 || (ids[3] + ids[4] + ids[5]) === 3) {
+            console.log("vencedor", jogador);
+          }
+
+
           
-        }
+        
+        
         
       }
   
@@ -69,3 +84,4 @@ botao.addEventListener('click',function (){
 })
 
 
+ 
