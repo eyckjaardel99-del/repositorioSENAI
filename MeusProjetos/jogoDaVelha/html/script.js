@@ -52,7 +52,9 @@ botao.addEventListener('click',function (){
           
         fimJogo = fimJogo + 1;
         //console.log(fimJogo)
-       console.log("os ids sao: ", ids)          
+       console.log("os ids sao: ", ids) 
+       
+       /* [0,1,2,3,4,5,6,7,8*/
 
         
 
@@ -60,7 +62,7 @@ botao.addEventListener('click',function (){
 
           console.log(soma)  
 
-          if((ids[1]+ ids[3] + ids[5]) === 6 || (ids[1]+ ids[3] + ids[5]) === 3){
+          if((ids[0]+ ids[1] + ids[2]) === 6 || (ids[0]+ ids[1] + ids[2]) === 3){
             console.log("vencedor", jogador)
 
           }

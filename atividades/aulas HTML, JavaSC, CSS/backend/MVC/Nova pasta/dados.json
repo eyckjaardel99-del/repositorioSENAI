@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nome":"xoia",
+        "email":"XOIA@gmail.com",
+        "telefone":"12121212",
+        "senha":"tucano"
+
+    },
+    {
+        "id": 2,
+        "nome":"coisas",
+        "email":"coisaisoaso@gmail.com",
+        "telefone":"343242234",
+        "senha":"tarantula"
+
+    },
+    {
+        "id":3,
+        "nome":"ze_simMamae",
+        "email":"sesodfosd@gamil.com",
+        "telefone":"2334523453465",
+        "senha":"whelington"
+
+    }
+]
