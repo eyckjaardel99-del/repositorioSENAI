@@ -7,7 +7,7 @@ USE DB_EMPRESA;
 CREATE TABLE empresa(
     id_empresa INT PRIMARY KEY AUTO_INCREMENT,
     id_cliente INT, 
-    id_produto 
+    id_produto INT,
 )
 
 USE DB_EMPRESA;
@@ -37,5 +37,27 @@ CREATE TABLE produto(
     preco FLOAT NOT NULL,
     quantidade INT NOT NULl
 )
+
+ALTER TABLE cliente
+ADD CONSTRAINT fk_cliente_telefone
+FOREIGN KEY (id_telefone)
+REFERENCES telefone (id_telefone);
+
+ALTER TABLE cliente
+ADD CONSTRAINT fk_cliente_email
+FOREIGN KEY (id_email)
+REFERENCES email (id_email);
+
+ALTER TABLE empresa
+ADD CONSTRAINT fk_empresa_cliente
+FOREIGN KEY (id_cliente)
+REFERENCES cliente (id_cliente);
+
+ALTER TABLE empresa
+ADD CONSTRAINT fk_empresa_produto
+FOREIGN KEY (id_produto)
+REFERENCES produto (id_produto);
+
+
 
 
