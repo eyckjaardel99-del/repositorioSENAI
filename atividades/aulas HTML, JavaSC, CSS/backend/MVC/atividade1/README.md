@@ -87,6 +87,7 @@ Delete time: http://localhost:3000/clientes/:id
 ![teste_cliente](./cliente_imagens/4.png)
 ![teste_cliente](./cliente_imagens/5.png)
 ![teste_cliente](./cliente_imagens/6.png)
+![teste_cliente](./cliente_imagens/7.png)
  
 ## teste_imagens
 
@@ -97,3 +98,4 @@ Delete time: http://localhost:3000/clientes/:id
 ![teste_pedidos](./pedidos_imagens/5.png)
 ![teste_pedidos](./pedidos_imagens/6.png)
 ![teste_pedidos](./pedidos_imagens/7.png)
+![teste_pedidos](./pedidos_imagens/8.png)

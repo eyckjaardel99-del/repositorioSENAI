@@ -18,3 +18,16 @@ chaves.forEach((chave)=>{
 });
 
 console.log(Object.keys(alteracao))
+
+const alterar =(req, res) =>{
+    const id = req.params.id;
+    const info = req.body; //{chave: valor, chave : valor}
+    const busca = dados.find((dado)=> dado.id == id);
+
+    Object.keys(info).forEach((i)=> {
+        busca[i] = info[i];
+    });
+
+    res.send("atualizado com sucesso").end();
+
+};

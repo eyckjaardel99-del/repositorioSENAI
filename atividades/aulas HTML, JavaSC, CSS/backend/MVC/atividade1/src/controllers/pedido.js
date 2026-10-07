@@ -35,6 +35,19 @@ const alterar = (req, res)=>{
 
 }
 
+const alterarParte = (req, res)=>{
+    const id = req.params.id;
+    const informa = req.body;
+    const busca = pedidos.find((inf)=> inf.id == id);
+
+    Object.keys(informa).forEach((i)=>{
+        busca[i] = informa[i];
+    })
+    res.send("recebido")
+    
+
+}
+
 const excluir = (req, res)=>{
     let id = req.params.id;
     pedidos.forEach((pedido, indice)=>{
@@ -57,6 +70,6 @@ function calcularTotal(){
 
 
 module.exports ={
-    criar, listar, alterar, excluir
+    criar, listar, alterar, excluir, alterarParte
 }
 

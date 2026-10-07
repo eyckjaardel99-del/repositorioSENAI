@@ -29,6 +29,16 @@ const alterar = (req, res)=>{
         res.json("erro")
     }
     })
+}
+const alterarParte = (req, res)=>{
+    const id = req.params.id;
+    const informa = req.body;
+    const busca = clientes.find((inf)=> inf.id == id);
+
+    Object.keys(informa).forEach((i)=>{
+        busca[i] = informa[i];
+    })
+    res.send("recebido")
     
 
 }
@@ -48,5 +58,5 @@ const excluir = (req, res)=>{
 
 
 module.exports = {
-    criar, listar, alterar, excluir
+    criar, listar, alterar, excluir, alterarParte
 }
