@@ -79,7 +79,7 @@ Delete time: http://localhost:3000/clientes/:id
   "quantidade": ""
 }
 ```
-
+## ** as atividades que esta escrito "erro", estao funcionando, so esqueci de trocar**
 ## teste_cliente
 ![teste_cliente](./cliente_imagens)
  
