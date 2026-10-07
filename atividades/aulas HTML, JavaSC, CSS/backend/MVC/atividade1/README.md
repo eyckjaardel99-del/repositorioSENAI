@@ -81,21 +81,16 @@ Delete time: http://localhost:3000/clientes/:id
 ```
 
 ## teste_cliente
-![teste_cliente](./cliente_imagens/1.png)
-![teste_cliente](./cliente_imagens/2.png)
-![teste_cliente](./cliente_imagens/3.png)
-![teste_cliente](./cliente_imagens/4.png)
-![teste_cliente](./cliente_imagens/5.png)
-![teste_cliente](./cliente_imagens/6.png)
-![teste_cliente](./cliente_imagens/7.png)
+![teste_cliente](./cliente_imagens)
  
 ## teste_imagens
 
-![teste_pedidos](./pedidos_imagens/1.png)
-![teste_pedidos](./pedidos_imagens/2.png)
-![teste_pedidos](./pedidos_imagens/3.png)
-![teste_pedidos](./pedidos_imagens/4.png)
-![teste_pedidos](./pedidos_imagens/5.png)
-![teste_pedidos](./pedidos_imagens/6.png)
-![teste_pedidos](./pedidos_imagens/7.png)
-![teste_pedidos](./pedidos_imagens/8.png)
+![teste_pedidos](./pedidos_imagens)
+
+## teste_items
+
+![teste_pedidos](./item_imagem)
+
+## teste_produtos
+
+![teste_pedidos](./imagem_produto)
