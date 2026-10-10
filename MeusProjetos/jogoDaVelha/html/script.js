@@ -85,6 +85,10 @@ jogo.addEventListener('click', function(checagem){
       console.log("diagona 2")
     }
     
+    if(posi === Number){
+        console.log("empate")
+    }
+    
   
   }
     
