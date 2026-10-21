@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto de venda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="produtos">
+
+            <divc class="produto">
+                <h3>bagana</h3>
+                <p>preco 60,00</p>
+
+                <button onclick="adicionarCarrinho('bagana', 60)"> adicionar carrinho </button>
+            </div>
+            <divc class="produto">
+                <h3>mouse sem fio</h3>
+                <p>preco 50,00</p>
+
+                <button onclick="adicionarCarrinho('mouse sem fio', 50)"> adicionar carrinho </button>
+            </div>
+        </section>
+        <section class="carrinho">
+            <h2>meu carrinho</h2>
+            <ul id="listarCarrinho">
+
+            </ul>
+
+            <h3 id="total">total: 0,00</h3>
+
+            <button onclick="finalizar()"> finalizar</button>
+            <button onclick="limpar()">limpar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
