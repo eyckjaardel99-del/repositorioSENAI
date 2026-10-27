@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estudo html/css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <header class="cabecalho">
+            <div>
+                <h1>cadastro de produto</h1>
+                <p class="subtitulo"> preencha os dados do produto a baixo</p>
+            </div>
+
+            <button type="button" class="botao-sair" onclick="window.location.href='login.html' ">sair</button>
+        </header>
+        <form id="formProduto">
+            <div class="campo">
+                <label for="codigoBarras"> Código de barras</label>
+                <input type="text" id="descricaoProduto" placeholder="nome do produto" required>
+
+            </div>
+
+            <div class="grade-precos">
+                <div class="campo">
+                    <label for="precoCusto" >preço custo (R$0,00) </label>
+                    <input type="number" id="precoCusto" min="0.01" step="0.01" placeholder="0,00" required> 
+                </div>
+                <div class="campo">
+                    <label for="precovenda"> preco venda</label>
+                    <input type="number" id="precoVenda" min="0.01" step="0.01" placeholder="0,00" required>
+                </div>
+            </div>
+
+            <div class="campo campo-margem">
+                <label for="margemLucro" > mensagem lucro</label>
+                <input type="number" id="margemLucro" value="0,00%" placeholder="0,00%" readonly>
+                <small>calculada automaticamente conforme os preços</small>
+            </div>
+            
+            <fieldset>
+                <legend>tipos de unidade</legend>
+
+                <div class="opcoes-unidade">
+                    <label class="opcao" >
+                        <input type="radio" name="unidade" value="UN" required>
+                        <span>UN- Unidade</span>
+                    </label>
+
+                    <label class="opcao" >
+                        <input type="radio" name="unidade" value="LT" required>
+                        <span>LT- litro</span>
+                    </label>
+
+                    <label class="opcao" >
+                        <input type="radio" name="unidade" value="KG" required>
+                        <span>KG- Quilograma</span>
+                    </label>
+                </div>
+            </fieldset>
+
+            <div class="botoes">
+                <button type="submit" class="botao-principal">cadastrar</button>
+                <button type="reset" class="botao-secundario">limpar</button>
+            </div>
+
+            <p id="mensagemProduto"></p>
+            
+        </form> 
+    </main>
+    <div
+
+    <script src="script.js"></script>
+</body>
+</html>
