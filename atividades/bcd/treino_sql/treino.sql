@@ -142,3 +142,4 @@ update venda
 SET desconto_percentual = 0.01
 WHERE quantidade = 2;
 
+
