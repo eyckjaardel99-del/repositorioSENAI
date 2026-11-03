@@ -5,8 +5,12 @@ const express = require('express');
 
 const app = express();
 
+const usuarioRoutes = require("./routes/usuario_routes.js")
+
 // Permite que a API receba JSON no corpo das requisições
 app.use(express.json());
+
+app.use("/usuario", usuarioRoutes);
 
 // Rota de teste
 app.get('/', (req, res) => {
