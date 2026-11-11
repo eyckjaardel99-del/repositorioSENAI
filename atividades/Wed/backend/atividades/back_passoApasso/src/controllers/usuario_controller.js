@@ -53,6 +53,8 @@ const excluir = async (req, res) =>{
         res.status(500).json({erro: err.message}).end();
     }
 }
+
+
 const atualizar = async (req, res) =>{
     try{
     const id = req.params.id;
