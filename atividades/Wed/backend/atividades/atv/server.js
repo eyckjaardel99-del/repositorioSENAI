@@ -15,9 +15,11 @@ app.use(express.static('public'));
 
 app.use('api/produtos', produtosRoutes);
 
-app.get('api/produtos', produtosRoutes);
+app.get('api/',(req, res) =>{
+    res.json({mensagem:'API de produtos funcionando!'})
+});
 
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () =>{
     console.log(`servidor rodando em http://localhost:${PORT}`)
